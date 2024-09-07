@@ -153,7 +153,7 @@ body {
     /* 162.5% */
 }
 
-#s-p-btn {
+.s-p-btn {
     margin-top: 20px;
     color: #FFF;
     font-size: 20px;
@@ -367,9 +367,49 @@ body {
     margin: 0px 320px;
 }
 
+/* Fifth page */
 
+/* Sixth page */
+.sixth-page {
+    margin-top: 100px;
+    display: flex;
+    gap: 20px;
+}
 
+.s-text-sec {
+    width: 50%;
+}
 
+#six-head {
+    margin-top: 20px;
+    margin-right: 170px;
+}
+
+.s-p-li {
+    color: #131318;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 27px;
+    /* 162.5% */
+    margin-right: 40px;
+}
+
+.s-img-sec {
+    width: 50%;
+    height: 424px;
+    background-image: url(../Images/Group\ 40089.png);
+    background-size: cover;
+    border-radius: 16px;
+}
+
+.s-i-p {
+    color: #FFF;
+    text-align: center;
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 36px;
+    padding: 170px 170px;
+}
 
 
 @media screen and (max-width : 776px) {
@@ -505,18 +545,42 @@ body {
         font-size: 30px;
         font-weight: 800;
     }
-    #w-c-u-p{
+
+    #w-c-u-p {
         padding: 0px 33px;
     }
-    .hotel-map{
+
+    .hotel-map {
         flex-direction: column;
     }
-    .price-tag{
+
+    .price-tag {
         margin: 0px;
         width: auto;
     }
+    /* Fifth Page */ 
 
-
-
+    /* Sixth Page */
+    .sixth-page{
+        margin-top: 25px;
+        flex-direction: column;
+    }
+    .s-text-sec{
+        width: 575px;
+    }
+    #six-head{
+        margin:  0px;
+        width: 348px;
+        text-align: start;
+    }
+    #six-para{
+        width: 500px;
+    }
+    .s-p-li{
+        width: 95%;
+    }
+    .s-img-sec{
+        width: 100%;
+    }
 
 }
