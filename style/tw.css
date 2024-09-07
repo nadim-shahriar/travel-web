@@ -159,6 +159,15 @@ body {
     background-color: var(--pri-co);
 }
 /* Third page */
+.third-page{
+    margin-top: 100px;
+}
+.text-div{
+    text-align: center;
+}
+.image-div a{
+    text-decoration: none;
+}
 
 
 @media screen and (max-width : 776px) {
