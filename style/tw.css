@@ -138,6 +138,12 @@ body {
     width: 50%;
 }
 
+.t-s-a {
+    color: #131318;
+    font-size: 40px;
+    font-weight: 800;
+}
+
 .s-p-a {
     margin-bottom: 20px;
     color: rgba(19, 19, 24, 0.70);
@@ -158,16 +164,212 @@ body {
     border-radius: 8px;
     background-color: var(--pri-co);
 }
+
 /* Third page */
-.third-page{
+.third-page {
     margin-top: 100px;
 }
-.text-div{
+
+.text-div {
     text-align: center;
 }
-.image-div a{
+
+.image-div a {
     text-decoration: none;
 }
+
+.b-b {
+    display: grid;
+    grid-template-columns: 40% auto;
+    gap: 20px;
+}
+
+.bangladesh {
+    height: 320px;
+    background-image: url(../Images/Rectangle\ 11.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 16px;
+}
+
+.bang-t {
+    color: #FFF;
+    text-align: center;
+    font-size: 28px;
+    font-weight: 800;
+    padding: 120px 0px;
+
+}
+
+
+
+.bandarban {
+    height: 320px;
+    background-image: url(../Images/Rectangle\ 10.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 16px;
+}
+
+.band-t {
+    color: #FFF;
+    text-align: center;
+    font-size: 28px;
+    font-weight: 800;
+    padding: 120px 0px;
+}
+
+.s-n-k {
+    margin-top: 20px;
+    display: grid;
+    grid-template-columns: 380px 580px 300px;
+    gap: 20px;
+}
+
+.srilanka {
+    height: 310px;
+    background-image: url(../Images/Rectangle\ 6.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 16px;
+
+}
+
+.sr-t {
+    color: #FFF;
+    text-align: center;
+    font-size: 28px;
+    font-weight: 800;
+    padding: 120px 0px;
+}
+
+.north-america {
+    height: 310px;
+    background-image: url(../Images/Rectangle\ 7.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 16px;
+
+}
+
+.na-t {
+    color: #FFF;
+    text-align: center;
+    font-size: 28px;
+    font-weight: 800;
+    padding: 120px 0px;
+}
+
+.kashmir {
+    height: 310px;
+    background-image: url(../Images/Rectangle\ 9.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 16px;
+}
+
+.ka-t {
+    color: #FFF;
+    text-align: center;
+    font-size: 28px;
+    font-weight: 800;
+    padding: 120px 0px;
+}
+
+.m-i {
+    margin-top: 20px;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 20px;
+}
+
+.maldives {
+    height: 300px;
+    background-image: url(../Images/Rectangle\ 5.png);
+    background-size: cover;
+    border-radius: 16px;
+}
+
+.ma-t {
+    color: #FFF;
+    text-align: center;
+    font-size: 28px;
+    font-weight: 800;
+    padding: 120px 0px;
+}
+
+.indonesia {
+    height: 300px;
+    background-image: url(../Images/Rectangle\ 8.png);
+    background-size: cover;
+    border-radius: 16px;
+}
+
+.in-t {
+    color: #FFF;
+    text-align: center;
+    font-size: 28px;
+    font-weight: 800;
+    padding: 120px 0px;
+}
+
+/* Forth-page */
+.forth-page {
+    margin-top: 100px;
+}
+
+.why-choose-us {
+    text-align: center;
+}
+
+#w-c-u-p {
+    padding: 0px 230px;
+}
+
+.f-icon {
+    width: 64px;
+    height: 64px;
+}
+
+.h-head {
+    color: #131318;
+    font-family: Mulish;
+    font-size: 24px;
+    font-weight: 800;
+}
+
+.hotel-map {
+    display: flex;
+    gap: 25px;
+    margin-bottom: 25px;
+}
+
+.hotel {
+    border-radius: 16px;
+    border: 1px solid rgba(251, 181, 99, 0.20);
+    background: rgba(251, 181, 99, 0.05);
+    padding: 32px 55px 0px 32px;
+}
+
+.map {
+    border-radius: 16px;
+    border: 1px solid rgba(41, 206, 246, 0.20);
+    background: rgba(41, 206, 246, 0.05);
+    padding: 32px 55px 0px 32px;
+}
+
+.price-tag {
+    border-radius: 16px;
+    border: 1px solid rgba(233, 68, 68, 0.20);
+    background: rgba(233, 68, 68, 0.05);
+    padding: 32px 55px 0px 32px;
+    width: 550px;
+    margin: 0px 320px;
+}
+
+
+
+
 
 
 @media screen and (max-width : 776px) {
@@ -257,17 +459,64 @@ body {
     }
 
     /* second page */
-    .second-page{
+    .second-page {
         margin-top: 25px;
         flex-direction: column;
         gap: 20px;
     }
-    .text-section{
+
+    .text-section {
         width: 100%;
     }
-    .image-section{
+
+    .image-section {
         text-align: center;
     }
+
     /* Third page */
+    .third-page {
+        margin-top: 25px;
+    }
+
+    .b-b {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .s-n-k {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .kashmir {
+        position: relative;
+        background-position: bottom;
+    }
+
+    /* Forth page */
+
+    .forth-page {
+        margin-top: 25px;
+    }
+
+    .t-s-a {
+        color: #131318;
+        text-align: center;
+        font-size: 30px;
+        font-weight: 800;
+    }
+    #w-c-u-p{
+        padding: 0px 33px;
+    }
+    .hotel-map{
+        flex-direction: column;
+    }
+    .price-tag{
+        margin: 0px;
+        width: auto;
+    }
+
+
+
 
 }
