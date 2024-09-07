@@ -17,9 +17,16 @@ body {
     margin-bottom: 49px;
 }
 
+
 .left {
     display: flex;
     gap: 20px;
+    align-items: center;
+}
+
+.nav-img {
+    width: 48px;
+    height: 56.008px;
 }
 
 .left-a {
@@ -118,17 +125,49 @@ body {
     font-weight: 700;
 }
 
+/* Second Page */
+
+.second-page {
+    margin-top: 100px;
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.text-section {
+    width: 50%;
+}
+
+.s-p-a {
+    margin-bottom: 20px;
+    color: rgba(19, 19, 24, 0.70);
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 26px;
+    /* 162.5% */
+}
+
+#s-p-btn {
+    margin-top: 20px;
+    color: #FFF;
+    font-size: 20px;
+    font-weight: 800;
+    width: 174px;
+    height: 52px;
+    border: none;
+    border-radius: 8px;
+    background-color: var(--pri-co);
+}
+/* Third page */
 
 
-
-
-
-@media screen and (max-width : 576px) {
+@media screen and (max-width : 776px) {
     body {
         width: 576px;
         margin: 0px;
         padding: 10px 20px;
     }
+
     /* header */
     .left {
         align-items: center;
@@ -157,18 +196,22 @@ body {
         display: inline;
         width: 30px;
     }
-    .right-b  a{
+
+    .right-b a {
         text-decoration: none;
     }
-    .right-b > .right-b-a{
+
+    .right-b>.right-b-a {
         list-style: none;
         display: none;
     }
-    .right-b:hover >.right-b-a{
+
+    .right-b:hover>.right-b-a {
         display: block;
         position: relative;
         right: 120px;
     }
+
     .banner {
         width: 100%;
     }
@@ -192,13 +235,30 @@ body {
         font-size: 14px;
         font-weight: 400;
     }
-    .banner-selector{
+
+    .banner-selector {
         flex-direction: column;
     }
-    .b-s-a ,.btn-primary{
+
+    .b-s-a,
+    .btn-primary {
         width: 100%;
         padding: 0px;
         text-align: center;
     }
+
+    /* second page */
+    .second-page{
+        margin-top: 25px;
+        flex-direction: column;
+        gap: 20px;
+    }
+    .text-section{
+        width: 100%;
+    }
+    .image-section{
+        text-align: center;
+    }
+    /* Third page */
 
 }
