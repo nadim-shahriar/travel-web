@@ -369,6 +369,71 @@ body {
 
 /* Fifth page */
 
+.fifth-page {
+    margin-top: 100px;
+    text-align: center;
+}
+
+#d-d-p {
+    margin-bottom: 40px;
+    padding: 0px 250px;
+
+}
+
+.add {
+    background-image: url(../Images/Rectangle\ 12.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 555px;
+    margin: 24px 0px;
+
+}
+
+.booking-box {
+    width: 569px;
+    height: 349px;
+    text-align: start;
+
+    border-radius: 16px;
+    border: 2px solid #FFF;
+    background: rgba(255, 255, 255, 0.80);
+    backdrop-filter: blur(2.5px);
+    padding: 50px;
+    position: relative;
+    left: 550px;
+    top: 52px;
+}
+
+.booking-box>.d-p-l>img {
+    padding-right: 6px;
+    position: relative;
+    top: 6px;
+}
+
+.icon-b,
+.icon-c {
+    padding-left: 24px;
+}
+
+.price {
+    color: #FF5400;
+    font-size: 20px;
+    font-weight: 800;
+
+}
+
+.add-a {
+    background-image: url(../Images/Rectangle\ 12\ \(1\).png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 555px;
+    margin: 24px 0px
+}
+
+#booking-box-a {
+    left: 75px;
+}
+
 /* Sixth page */
 .sixth-page {
     margin-top: 100px;
@@ -684,6 +749,42 @@ hr {
     }
 
     /* Fifth Page */
+    .fifth-page {
+        width: 100%;
+    }
+
+    #d-d-p {
+        padding: 0px;
+    }
+
+    .add,
+    .add-a {
+        border-radius: 16px;
+    }
+
+    .booking-box, #booking-box-a {
+        width: 303px;
+        height: 387px;
+        left: 110px;
+        top: 100px;
+        padding: 26px;
+
+    }
+    .icon-b{
+        margin-right: 20px;
+    }
+    .icon-c{
+        padding: 0px;
+    }
+    #add-h{
+        margin: 18px 0px 0px 0px;
+    }
+    #add-p{
+        margin: 5px;
+    }
+    .price{
+        margin: 10px;
+    }
 
     /* Sixth Page */
     .sixth-page {
@@ -731,14 +832,17 @@ hr {
     #offer {
         top: 630px;
     }
+
     /* footer */
-    footer{
+    footer {
         margin-top: 440px;
     }
-    #foot{
+
+    #foot {
         padding: 60px 200px 0px;
     }
-    #foot-p{
+
+    #foot-p {
         padding: 0px 100px;
     }
 
