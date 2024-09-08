@@ -334,7 +334,7 @@ body {
 .h-head {
     color: #131318;
     font-family: Mulish;
-    font-size: 24px;
+    font-size: 28px;
     font-weight: 800;
 }
 
@@ -411,6 +411,129 @@ body {
     padding: 170px 170px;
 }
 
+/* Seventh Page */
+
+.seventh-page {
+    margin-top: 100px;
+    display: flex;
+    gap: 30px;
+    position: relative;
+    height: 422px;
+}
+
+.form {
+
+    padding: 0px 40px 40px;
+    width: 40%;
+    border: 2px solid #FF5400;
+    border-radius: 16px;
+}
+
+#form-head {
+    margin-bottom: 0px;
+}
+
+#form-p {
+    width: 400px;
+    padding-top: 5px;
+    margin-bottom: 38px;
+}
+
+.inp-sec {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+
+}
+
+.inp-n-e {
+    color: rgba(19, 19, 24, 0.30);
+    font-size: 16px;
+    font-weight: 400;
+
+    padding-left: 20px;
+    height: 52px;
+    border-radius: 8px;
+    border: none;
+    background: rgba(19, 19, 24, 0.05);
+}
+
+#sub-btn {
+    width: 100%;
+    color: #FFF;
+    text-align: center;
+    font-family: Mulish;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
+}
+
+.sev-img {
+    width: auto;
+
+
+}
+
+#offer {
+    width: 335px;
+    height: 120px;
+    transform: rotate(-19.628deg);
+    text-align: center;
+    padding: 10px 0px;
+    position: absolute;
+    bottom: 54px;
+    right: 25px;
+
+}
+
+#off-p {
+    color: #FFF;
+    font-family: Mulish;
+    font-size: 24px;
+    font-weight: 400;
+    margin-bottom: 0px;
+}
+
+#save-off {
+    margin-top: 0px;
+    color: #FFF;
+    font-size: 32px;
+    font-weight: 800;
+}
+
+/* Footer */
+footer {
+    margin-top: 100px;
+    text-align: center;
+    height: 480px;
+    background: rgba(19, 19, 24, 0.05);
+
+}
+
+#foot {
+    padding: 0px 510px;
+}
+
+hr {
+    margin: 50px 100px;
+
+}
+
+#foot-p {
+    padding: 0px 200px;
+}
+
+.foot-img {
+    margin-top: 32px;
+}
+
+.foot-l-p {
+    color: #131318;
+    font-family: Inter;
+    font-size: 20px;
+    font-weight: 300;
+}
 
 @media screen and (max-width : 776px) {
     body {
@@ -461,6 +584,7 @@ body {
         display: block;
         position: relative;
         right: 120px;
+
     }
 
     .banner {
@@ -558,29 +682,66 @@ body {
         margin: 0px;
         width: auto;
     }
-    /* Fifth Page */ 
+
+    /* Fifth Page */
 
     /* Sixth Page */
-    .sixth-page{
+    .sixth-page {
         margin-top: 25px;
         flex-direction: column;
     }
-    .s-text-sec{
+
+    .s-text-sec {
         width: 575px;
     }
-    #six-head{
-        margin:  0px;
+
+    #six-head {
+        margin: 0px;
         width: 348px;
         text-align: start;
     }
-    #six-para{
+
+    #six-para {
         width: 500px;
     }
-    .s-p-li{
+
+    .s-p-li {
         width: 95%;
     }
-    .s-img-sec{
+
+    .s-img-sec {
         width: 100%;
     }
+
+    /* Seventh Page */
+
+    .seventh-page {
+        margin-top: 20px;
+        flex-direction: column;
+    }
+
+    .form {
+        width: auto;
+    }
+
+    .sev-img>img {
+        width: 100%;
+    }
+
+    #offer {
+        top: 630px;
+    }
+    /* footer */
+    footer{
+        margin-top: 440px;
+    }
+    #foot{
+        padding: 0px 200px;
+    }
+    #foot-p{
+        padding: 0px 100px;
+    }
+
+
 
 }
