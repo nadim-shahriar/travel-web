@@ -506,13 +506,13 @@ body {
 footer {
     margin-top: 100px;
     text-align: center;
-    height: 480px;
+    height: 560px;
     background: rgba(19, 19, 24, 0.05);
 
 }
 
 #foot {
-    padding: 0px 510px;
+    padding: 80px 510px 0px;
 }
 
 hr {
@@ -736,7 +736,7 @@ hr {
         margin-top: 440px;
     }
     #foot{
-        padding: 0px 200px;
+        padding: 60px 200px 0px;
     }
     #foot-p{
         padding: 0px 100px;
